@@ -1,7 +1,23 @@
 html, body {
     background-color: #000000;
+    color: #FFFFFF;
 }
 
 .custom-link {
     background-color: #35AFF1!important;
+}
+
+.titulo-contact {
+    color: #35AFF1;
+}
+
+.form-check-label {
+    color:rgb(210, 193, 171);
+    text-align: center;
+}
+
+.btn-outline-light {
+    margin-top:20px;
+    width: 17%;
+    text-align: center;
 }
