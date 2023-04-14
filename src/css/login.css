@@ -1,0 +1,25 @@
+html, body {
+    background-color: black;
+}
+.container-fluid {
+    background-color: rgba(53, 175, 241, 0.801);
+    align-items: center;
+}
+h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.form-group{
+    font-family: 'Franklin Gothic Medium';
+    margin-top: 15px;
+}
+.btn{
+    background-color: rgba(243, 11, 11, 0.89);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    border-width: medium;
+    margin-top: 20px;
+}
+.hybrid-login-form-other{
+    font-weight: 500;
+}  
+
