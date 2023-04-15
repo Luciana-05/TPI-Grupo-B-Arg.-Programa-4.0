@@ -11,9 +11,23 @@ const appendAlert = (message, type) => {
     ].join('')
     alertPlaceholder.append(wrapper)
 }
-const alertTrigger = document.getElementById('liveAlertBtn')
-    if (alertTrigger) {
-alertTrigger.addEventListener('click', () => {
-appendAlert('¡Muchas gracias por contactarnos!', 'success')
-    })
-}
+
+const validations = (event) => {
+    event.preventDefault();
+    const myForm = document.getElementById('contact-form');
+    const form = Array.from(myForm);
+    console.log(form);
+    let errors = 0;
+    for (let i = 0; i < form.length; i++) {
+        if (form[i].required === true && form[i].value === '') {
+            errors = errors + 1;
+        }
+    }
+    console.log(errors);
+    myForm.classList.add('was-validated');
+    if (errors === 0) {
+        appendAlert('¡Muchas gracias por contactarnos!', 'success');
+    } else {
+        appendAlert('¡Hay campos sin completar!', 'danger')
+    }
+};
