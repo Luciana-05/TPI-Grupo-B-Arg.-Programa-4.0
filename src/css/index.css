@@ -1,0 +1,12 @@
+.imagen{
+    object-fit: cover;
+    width: 300px;
+    height: 500px;
+}
+.row-header-title{
+    margin: 1em;
+}
+/* video{
+    width: 100;
+    height: auto;
+} */
