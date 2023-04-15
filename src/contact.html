@@ -41,7 +41,7 @@
                 <div class="col-md-10">
                     <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre" class="form-control" required />
                     <div class="invalid-feedback">
-                        El nombre de usuario es requerido
+                        El nombre del usuario es requerido
                     </div>
                 </div>
             </div>
@@ -53,7 +53,7 @@
                     <input type="text" id="apellido" name="apellido" placeholder="Ingrese su apellido"
                         class="form-control" required />
                     <div class="invalid-feedback">
-                        El nombre de usuario es requerido
+                        El apellido del usuario es requerido
                     </div>
                 </div>
             </div>
@@ -63,7 +63,10 @@
                 </div>
                 <div class="col-md-10">
                     <input type="text" id="teléfono" name="teléfono" placeholder="Ingrese su teléfono"
-                        class="form-control" />
+                        class="form-control" required/>
+                    <div class="invalid-feedback">
+                        El teléfono del usuario es requerido
+                    </div>
                 </div>
             </div>
             <div class="row g-3 align-items-center mb-3 text-sm-start text-md-end text-lg-end">
@@ -71,7 +74,10 @@
                     <label for="email">E-mail:</label>
                 </div>
                 <div class="col-md-10">
-                    <input type="text" id="email" name="email" placeholder="Ingrese su email" class="form-control" />
+                    <input type="text" id="email" name="email" placeholder="Ingrese su email" class="form-control" required/>
+                    <div class="invalid-feedback">
+                        El e-mail del usuario es requerido
+                    </div>
                 </div>
             </div>
             <div class="row g-3 align-items-center mb-3 text-sm-start text-md-end text-lg-end">
@@ -79,7 +85,10 @@
                     <label for="mensaje">Mensaje:</label>
                 </div>
                 <div class="col-md-10">
-                    <input type="text" id="mensaje" name="mensaje" placeholder="Ingrese un mensaje" class="form-control" />
+                    <input type="text" id="mensaje" name="mensaje" placeholder="Ingrese un mensaje" class="form-control" required/>
+                    <div class="invalid-feedback">
+                        El campo mensaje es requerido
+                    </div>
                 </div>
             </div>
             <div class="form-check form-switch">
