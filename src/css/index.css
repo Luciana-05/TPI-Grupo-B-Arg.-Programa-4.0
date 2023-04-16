@@ -5,7 +5,7 @@
     object-fit: cover;
     top: 0;
     left: 0;
-    padding-bottom: 3em
+    padding-bottom: 2em
     /* position: absolute; */
     /* width: 300px;
     height: 500px; */
@@ -23,17 +23,22 @@ main{
         font-size: 30px;
     }
 } */
+a:hover {
+    transform: scale(1.01);
+    border: 1px white;
+}
 
-/*.row-header-title{
+.row-header-title{
     margin: 1em;
 } 
- .distribucionImg{
-    width: 100%;
-    padding-bottom: 150%;
+
+/* .distribucionImg{
+    
     display: flex;
     justify-content: end;
-    background-color: aqua;
-}*/
+    padding-left: 1em;
+    padding-right: 1em;
+} */
 /* video{
     width: 100;
     height: auto;
