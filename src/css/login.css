@@ -1,25 +1,85 @@
-html, body {
+html, body{
     background-color: black;
+    background-image:url(src/images/Logo1.jpeg);
+    background-size:cover;
+    background-position:bottom;
+   
 }
-.container-fluid {
-    background-color: rgba(53, 175, 241, 0.801);
-    align-items: center;
+
+.container{
+   width:500px;
+   height: 600px;
+   background-color: #686e7175;
+   border-radius: 20px;
 }
-h1{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+h2{
+    font-family:Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    text-align: center;
+    color: #42ade4;
+    font-weight:500;
 }
-.form-group{
-    font-family: 'Franklin Gothic Medium';
-    margin-top: 15px;
-}
-.btn{
-    background-color: rgba(243, 11, 11, 0.89);
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.row-cols-2{ font-family:Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
     font-size: large;
-    border-width: medium;
+    margin-top: 50px;
+    font-weight: 500;
+
+}
+
+.row-cols-4{
+    font-family:Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    font-size: large;
+    margin-top: 50px;
+    font-weight: 500;
+}
+
+.row-cols-1{
     margin-top: 20px;
 }
-.hybrid-login-form-other{
-    font-weight: 500;
-}  
+
+.form-check-label{
+    color: #42ade4;
+}
+
+.col-6{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 25px;
+}
+a:link{
+    color: #42ade4;
+    background-color: transparent;
+    text-decoration:none;
+    font-weight:bolder;
+    
+}
+a:visited{
+    color: #42ade4;
+    background-color: transparent;
+    text-decoration: none;
+    
+}
+a:hover{
+    color: whitesmoke;
+    background-color: transparent;
+    text-decoration: underline;
+   
+}
+a:active{
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.form-control{
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    font-style:normal;
+
+}
+.btn{
+    margin-top: 20px;
+    font-weight:bolder
+}
+p{
+    color:whitesmoke;
+}
 
