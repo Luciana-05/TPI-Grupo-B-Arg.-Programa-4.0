@@ -1,8 +1,8 @@
 html, body{
-    background-color: black;
-    background-image:url(src/images/Logo1.jpeg);
-    background-size:cover;
-    background-position:bottom;
+    background-color: rgb(0, 0, 0);
+    background-size: cover;
+    background-repeat: repeat;
+    
    
 }
 
