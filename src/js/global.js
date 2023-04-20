@@ -26,7 +26,7 @@ const validations = (event) => {
     console.log(errors);
     myForm.classList.add('was-validated');
     if (errors === 0) {
-        appendAlert('¡Muchas gracias por contactarnos!', 'success');
+        appendAlert('¡Tu solicitud ha sido enviada!', 'success');
     } else {
         appendAlert('¡Hay campos sin completar!', 'danger')
     }
