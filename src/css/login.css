@@ -1,7 +1,7 @@
-html, body{
+body{
     background-color: rgb(0, 0, 0);
-    background-size: cover;
     background-repeat: repeat;
+    background-image: url(../images/background.png);
     
    
 }
@@ -9,7 +9,7 @@ html, body{
 .container{
    width:500px;
    height: 600px;
-   background-color: #686e7175;
+   background-color: #232525d5;
    border-radius: 20px;
 }
 
@@ -45,30 +45,6 @@ h2{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin-top: 25px;
 }
-a:link{
-    color: #42ade4;
-    background-color: transparent;
-    text-decoration:none;
-    font-weight:bolder;
-    
-}
-a:visited{
-    color: #42ade4;
-    background-color: transparent;
-    text-decoration: none;
-    
-}
-a:hover{
-    color: whitesmoke;
-    background-color: transparent;
-    text-decoration: underline;
-   
-}
-a:active{
-    color: red;
-    background-color: transparent;
-    text-decoration: underline;
-}
 
 .form-control{
     font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
@@ -77,7 +53,7 @@ a:active{
 }
 .btn{
     margin-top: 20px;
-    font-weight:bolder
+    background-color: #42ade4;
 }
 p{
     color:whitesmoke;

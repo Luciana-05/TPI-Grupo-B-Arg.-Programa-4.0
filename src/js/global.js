@@ -16,7 +16,6 @@ const validations = (event) => {
     event.preventDefault();
     const myForm = document.getElementById('contact-form');
     const form = Array.from(myForm);
-    console.log(form);
     let errors = 0;
     for (let i = 0; i < form.length; i++) {
         if (form[i].required === true && form[i].value === '') {
@@ -26,7 +25,26 @@ const validations = (event) => {
     console.log(errors);
     myForm.classList.add('was-validated');
     if (errors === 0) {
-        appendAlert('¡Tu solicitud ha sido enviada!', 'success');
+        const data = {};
+        for (let i = 0; i < form.length; i++) {
+            console.log(form[i].value, form[i].id);
+            data[form[i].id] = form[i].value;
+        }
+        const URL = 'https://reqres.in/api/users';
+        const request = window.fetch(URL, {
+            method: 'POST',
+            body: JSON.stringify(data),
+            headers: {
+                'Content-Type': 'application/json',
+            }
+        })
+        .then(
+            response => response.json()
+                .then(data => {
+                    console.log(data);
+                    appendAlert(`¡Tu solicitud ha sido enviada! - Fecha de ingreso del registro: ${data.createdAt}, con el ID número ${data.id}`, 'success');
+                })
+        );
     } else {
         appendAlert('¡Hay campos sin completar!', 'danger')
     }

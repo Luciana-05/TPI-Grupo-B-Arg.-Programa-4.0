@@ -1,77 +1,16 @@
-
-html, body {
-    background-color: #000000;
-    color: #FFFFFF;
-}
-
-.custom-link {
-    background-color: #35AFF1!important;
-}
-
-.titulo-contact {
-    color: #35AFF1;
-}
-
-.form-check-label {
-    color:rgb(210, 193, 171);
-    text-align: center;
-}
-
-.btn-outline-light {
-    margin-top:20px;
-    width: 17%;
-    text-align: center;
-}
-
-.bi {
-    vertical-align: -.125em;
-    fill: #35AFF1;
-}
-
-#regresar{
-    margin-top: 20px;
-}
-
-
-h1{
+.profile-title {
     align-items: center;
     text-align: center;
     margin-top: 60px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: rgba(255, 0, 0, 0.746);
+    color: #35AFF1;
     font-weight:bolder;
     
 }
 
-.perf{
+.perf {
     align-items: center;
     text-align: center;
     margin-top: 100px;
     margin-bottom: 100px;
 }
-a:link{ 
-    color: whitesmoke;
-    background-color: transparent;
-    vertical-align: bottom;
-}
-a:visited{
-    color:grey ;
-    background-color: transparent;
-    text-decoration:overline;
-    vertical-align: bottom;
-    
-}
-a:hover{
-    color: whitesmoke;
-    background-color: transparent;
-    text-decoration: underline;
-    vertical-align: bottom;
-   
-}
-a:active{
-    color: red;
-    background-color: transparent;
-    text-decoration: underline;
-    vertical-align: bottom;
-    
- }
