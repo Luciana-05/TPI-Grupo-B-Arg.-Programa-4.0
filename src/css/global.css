@@ -27,10 +27,19 @@ html, body {
     fill: #35AFF1;
 }
 
-#regresar{
+#regresar {
     margin-top: 20px;
 }
 
-#description{
+#description {
     margin: 60px;
+}
+
+.text-body-unsuscription {
+    color: #35AFF1;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    background-color:#35AFF1;
+    border-radius: 100%;
 }
