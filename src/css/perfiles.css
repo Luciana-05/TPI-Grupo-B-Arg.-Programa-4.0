@@ -7,10 +7,47 @@
     font-weight:bolder;
     
 }
-
-.perf {
-    align-items: center;
-    text-align: center;
-    margin-top: 100px;
-    margin-bottom: 100px;
-}
+.container {
+    position:relative;
+    width: 200px;
+  }
+  
+  .image {
+    display:flex;
+    width: 200px;
+    height: 200px;
+  }
+  .image1 {
+    display:block;
+    width: 200px;
+    height: 200px;
+  }
+  
+  .overlay {
+    position:relative;
+    left: 0;
+    right: 0;
+    background-color: #008CBA;
+    overflow: hidden;
+    width: 200px;
+    height: 0;
+    transition: .5s ease;
+  }
+  
+  .container:hover .overlay {
+    bottom: 0;
+    height: 200px;
+    width: 250px;
+  }
+  
+  .text {
+    white-space: nowrap; 
+    color: rgb(14, 13, 13);
+    font-size: 30px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
