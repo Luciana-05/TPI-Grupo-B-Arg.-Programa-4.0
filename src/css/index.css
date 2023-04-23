@@ -32,31 +32,26 @@ video{
     z-index: 1;
 }
 
-.descripciónEstreno{
+.descripcion-estreno {
     z-index: 2;
     color: rgba(225, 225, 225, 0.7);
-    height: 50%;
+    padding: 10px;
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
-h1{
-    margin-left: 1em;
-    margin-top: 1em;
+.descripcion-estreno h1 {
     color: rgba(225, 225, 225, 0.9);
 }
-.titulopelicula{
-    margin-top: 0.5em;
-    margin-left: .5em;
-    font-size: 35px;
+.titulopelicula {
     color: rgba(66, 173, 228, 0.8);
     
 }
+.titulopelicula a {
+    text-decoration: none;
+}
 .trama{
     font-size: 15px;
-    padding-left: .5em;
-    margin-right: 50%;
-    margin-left: .3em;
-    color: rgba(1, 22, 24, 0.9);
-    background-color: rgba(225, 225, 225, 0.5);
 }
 .linkPelicula{
     color: rgba(225, 225, 225, 0.8);
