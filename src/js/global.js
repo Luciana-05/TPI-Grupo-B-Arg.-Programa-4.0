@@ -49,3 +49,19 @@ const validations = (event) => {
         appendAlert('¡Hay campos sin completar!', 'danger')
     }
 };
+const loginValidator = (event) => {
+    event.preventDefault();
+    const myForm = document.getElementById('login-form');
+    const form = Array.from(myForm);
+    let errors = 0;
+    for (let i = 0; i < form.length; i++) {
+        if (form[i].required === true && form[i].value === '') {
+            errors = errors + 1;
+        }
+    }
+    console.log(errors);
+    myForm.classList.add('was-validated');
+    if (errors === 0) {
+        window.location.href = 'profiles.html';
+    }
+};
