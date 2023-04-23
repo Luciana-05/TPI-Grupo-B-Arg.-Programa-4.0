@@ -8,6 +8,7 @@
     <title>ARGFLIX - Peliculas Argentinas | Nosotros</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link href="css/global.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-S6ud+D6U1igQwDn6s1asQsARs+WD3XJEC/3kDsI7V+P/qIDJg7TzjZShh8WpHmLjAWy1Rf9g9mJBLhQK1vbbZw==" crossorigin="anonymous" />
     <title>Título de mi Página</title>
 	<link rel="stylesheet" type="text/css" href="about-us.css">
     <style>
@@ -19,6 +20,13 @@
 		.image-container img {
 			margin: 10px;
 		}
+    .section-social-network{
+      display: flex;
+      flex-direction: row;
+      gap: 6px;
+      align-items: center;
+      cursor: pointer;
+    }
 	</style>
 </head>
 <body>
@@ -44,21 +52,54 @@
             A lo largo de los años, ArgFlix ha trabajado con algunos de los nombres más destacados del cine argentino, incluyendo directores como Luis Puenzo, Pablo Trapero y Lucrecia Martel. También ha lanzado las carreras de muchos actores y actrices talentosos, convirtiéndose en una verdadera fuerza impulsora detrás de la industria cinematográfica argentina.
             A medida que la industria del cine ha evolucionado, CineArg también ha seguido avanzando, adoptando nuevas tecnologías y plataformas de distribución para estabilizar al día con las demandas de los espectadores modernos. Hoy en día, la compañía sigue siendo una de las principales productoras y distribuidoras de cine en Argentina, con una pasión por contar historias que capturan la esencia de la cultura y la vida en el país.
           </p>
-          <h5 class="d-flex flex-wrap justify-content-center titulo-contact mb-3">Conocenos mas en nuestras redes...</h5>
-          <div class="image-container">
-            <a href="https://www.instagram.com/capellodario/" target="_blank">
-            <img src="images/Perfiles/Bart Simpson.jpg" alt="Dario">
-            </a>
-            <a href="https://instagram.com/luu.mdiaz?igshid=YmMyMTA2M2Y=" target="_blank">
-                <img src="images/Perfiles/Lisa Simpson.jpg" alt="Lu"> 
-            </a>
-            <a href="https://instagram.com/agus.vultaggio?igshid=ZDdkNTZiNTM=" target="_blank">
-                <img src="images/Perfiles/Maggie Simpson.png" alt="Agus"> 
-            </a>
-            <a href="https://www.instagram.com/uliworka/?igshid=ZDdkNTZiNTM%3D" target="_blank">
-                <img src="images/Perfiles/Hugo Simpson.jpg" alt="Uli"> 
-            </a>
-        </div>
+          <div class="container-fluid bg-dark">
+            <div class="row justify-content-center">
+              <div class="col-md-5 col-lg-3 mb-3">
+                <div class="card text-white bg-secondary">
+                  <img height="200" src="./images/Perfiles/Uli.jpg" alt="Card image" >
+                  <div class="card-body">
+                    <h5 class="card-title">Ludueña Ulises</h5>
+                    
+                    <div class="section-social-network" onclick="window.open('http://www.instagram.com/uliworka', '_blank')">
+                      
+                      <svg class="bi" width="16" height="16">
+                        <use xlink:href="#instagram" />
+                      </svg>
+                      <span>@uli.worka</span>
+                  </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-5 col-lg-3 mb-3">
+                <div class="card text-white bg-secondary">
+                  <img class="card-img-top" src="https://via.placeholder.com/350x200" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Tarjeta 2</h5>
+                    <p class="card-text">Descripción de la tarjeta 2.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-5 col-lg-3 mb-3">
+                <div class="card text-white bg-secondary">
+                  <img class="card-img-top" src="https://via.placeholder.com/350x200" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Tarjeta 3</h5>
+                    <p class="card-text">Descripción de la tarjeta 3.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-5 col-lg-3 mb-3">
+                <div class="card text-white bg-secondary">
+                  <img class="card-img-top" src="https://via.placeholder.com/350x200" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Tarjeta 4</h5>
+                    <p class="card-text">Descripción de la tarjeta 4.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
     </main>
     <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
         <symbol id="bootstrap" viewBox="0 0 118 94">
